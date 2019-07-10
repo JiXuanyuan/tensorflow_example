@@ -1,6 +1,7 @@
 import tensorflow as tf
 from MNIST_data import input_data
 
+
 # MNIST教程：
 #   http://www.tensorfly.cn/tfdoc/tutorials/mnist_download.html
 # 全部样本数据、部分代码可在上述网站找到
