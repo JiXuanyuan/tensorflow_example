@@ -73,6 +73,9 @@ with tf.Session() as sess:
         print(sess.run(test, feed_dict={
             x: mnist.test.images, y: mnist.test.labels}))
 
-
+# 终端：
+#   tensorboard --logdir=logs/
+# 浏览器：
+#   http://localhost:6006
 
 
